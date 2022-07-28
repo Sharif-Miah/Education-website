@@ -1,0 +1,35 @@
+/* Google font link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* caresole item css start  */
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0.6;
+}
+
+.carousel-caption {
+    /* margin: auto; */
+    position: absolute;
+
+    left: 0;
+    transform: translate(-50, -50);
+}
+
+.custom-btn-bg {
+    background-color: #289bde;
+
+}
