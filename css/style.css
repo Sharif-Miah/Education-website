@@ -33,3 +33,19 @@ body {
     background-color: #289bde;
 
 }
+
+.price-text-color {
+    color: #289bde;
+}
+
+/* learning-bg-color style */
+
+.learning-bg-color {
+    background-color: #f4fafd;
+
+}
+
+/* ready-bg-color style */
+.ready-bg-color {
+    background-color: #289bde;
+}
