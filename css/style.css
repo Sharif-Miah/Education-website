@@ -69,6 +69,10 @@ footer ul li {
 /* media section  */
 
 @media (max-width: 576px) {
+    .carousel-caption {
+        margin-top: 10px;
+    }
+
     .carousel.slide h1 {
         font-size: 18px;
     }
