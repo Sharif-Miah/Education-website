@@ -22,9 +22,7 @@ body {
 }
 
 .carousel-caption {
-    /* margin: auto; */
     position: absolute;
-
     left: 0;
     transform: translate(-50, -50);
 }
@@ -56,8 +54,27 @@ body {
     padding-left: 0;
 }
 
-/* Course img css */
-.course-img {
-    /* background-position: center; */
+/* footer section  */
 
+footer ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    background-color: #242424;
+    padding: 8px 12px;
+    cursor: pointer;
+
+}
+
+
+/* media section  */
+
+@media (max-width: 576px) {
+    .carousel.slide h1 {
+        font-size: 18px;
+    }
+
+    .carousel.slide p {
+        font-size: 14px;
+        padding: 0 40px;
+    }
 }
